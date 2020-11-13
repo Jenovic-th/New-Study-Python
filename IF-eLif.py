@@ -23,6 +23,10 @@ if number >= 50:
     print("ธนบัตรใบละ 50 บาท :",number // 50, "ใบ")
     number %= 50
 
+if number >= 20:
+    print("ธนบัตรใบละ 20 บาท :",number // 20, "ใบ")
+    number %= 20
+
 if number >= 10:
     print("เหรียญ 10 บาท :",number // 10, "เหรียญ")
     number %= 10
