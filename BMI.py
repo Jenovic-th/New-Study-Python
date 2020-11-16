@@ -28,5 +28,5 @@ if BMI < 18.0:
     result = "คุณมีค่า BMI ต่ำกว่าเกณฑ์"
 elif BMI >= 18.5 and BMI <= 22.9:
     result = "คุณมีค่า BMI ปกติ "
-print (result)
+print(result)
 
