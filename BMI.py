@@ -21,3 +21,12 @@ print ("ค่า BMI ของคุณคือ",BMI)
 # Height = int(input("กรุณาใส่ส่วนสูงของคุณ (Cm)")) / 100 # ใส่ตัวหารไปเลย
 # print ("ค่า BMI ของคุณคือ ",Weight / Height**2)
 
+# แสดงผลให้ละเอียดขึ้นด้วย if elif เช่น
+
+result = "ยังไม่ทราบค่า BMI"
+if BMI < 18.0:
+    result = "คุณมีค่า BMI ต่ำกว่าเกณฑ์"
+elif BMI >= 18.5 and BMI <= 22.9:
+    result = "คุณมีค่า BMI ปกติ "
+print (result)
+
