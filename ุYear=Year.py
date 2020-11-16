@@ -2,9 +2,14 @@
 # แปลง พ.ศ เป็น ค.ศ
 # แปลง ค.ศ + 543
 # แปลง พ.ศ - 543
+print("กรุณาเลือกลักษณะการแปลง")
+print("1.เปลี่ยนจากปี ค.ศ เป็น พ.ศ")
+print("2.เปลี่ยนจากปี พ.ศ เป็น ค.ศ")
+number = int(input (":"))
+if number == 1
+    print int(input ("กรุณาระบุปี ค.ศ :"))
+        number = number + 543
+            print ("ปี พ.ศ คือ :")
 
-number = int(input("กรุณาใส่จำนวนปี :"))
-if number >= 1900 and 2100 + 543
-    print("ปีพุทธศักราช คือ",number)
 
-
+unfinished ***
